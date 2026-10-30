@@ -1,0 +1,2 @@
+# Start here
+Read README.md and SKILL.md. Copy a profile with scripts/init_profile.py, personalize it and run scripts/check_profile.py. Create a separate episode with scripts/new_episode.py. Supply your real narration, fonts, backgrounds and editable native template. Plan/proof/draft/render/QA using the configured verified tools. Example files are not finished videos. See docs/PERSONALIZATION.md and docs/QA_AND_DELIVERY.md.

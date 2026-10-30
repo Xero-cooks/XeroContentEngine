@@ -1,0 +1,2 @@
+# Contributing
+Keep core instructions provider-neutral and preserve truthful render/delivery gates. Add personal defaults as clearly labeled example profiles, not mandatory global requirements. Include tests for utility changes and sanitized input/output examples. Do not contribute private creator assets, licensed binaries, credentials or invented API command claims. Run `python -m unittest discover -s tests -v` before proposing changes.

@@ -1,0 +1,32 @@
+{
+  "pauses": [
+    {
+      "at": 2.0,
+      "duration": 0.2
+    },
+    {
+      "at": 6.0,
+      "duration": 0.3
+    }
+  ],
+  "cues": [
+    {
+      "id": "hook",
+      "kind": "scene",
+      "source_start": 0.0,
+      "source_end": 2.0
+    },
+    {
+      "id": "important-word",
+      "kind": "word",
+      "source_start": 2.0,
+      "source_end": 2.4
+    },
+    {
+      "id": "tick",
+      "kind": "sfx",
+      "source_start": 6.0,
+      "source_end": 6.055
+    }
+  ]
+}

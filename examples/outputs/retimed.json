@@ -1,0 +1,41 @@
+{
+  "mode": "inserted_pauses_only",
+  "boundary_rule": "pause.at <= source_time maps after pause",
+  "pauses": [
+    {
+      "at": 2.0,
+      "duration": 0.2
+    },
+    {
+      "at": 6.0,
+      "duration": 0.3
+    }
+  ],
+  "cues": [
+    {
+      "id": "hook",
+      "kind": "scene",
+      "source_start": 0.0,
+      "source_end": 2.0,
+      "output_start": 0.0,
+      "output_end": 2.2
+    },
+    {
+      "id": "important-word",
+      "kind": "word",
+      "source_start": 2.0,
+      "source_end": 2.4,
+      "output_start": 2.2,
+      "output_end": 2.6
+    },
+    {
+      "id": "tick",
+      "kind": "sfx",
+      "source_start": 6.0,
+      "source_end": 6.055,
+      "output_start": 6.5,
+      "output_end": 6.555
+    }
+  ],
+  "media_edited": false
+}

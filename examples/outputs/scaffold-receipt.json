@@ -1,0 +1,27 @@
+{
+  "episode_id": "demo_01",
+  "status": "SCAFFOLD_NOT_RENDERED",
+  "native_template_copied": false,
+  "video_rendered": false,
+  "publishing_performed": false,
+  "directories": [
+    "audio",
+    "project",
+    "render",
+    "qa",
+    "delivery"
+  ],
+  "files": [
+    "profile.effective.json",
+    "episode.json",
+    "SCRIPT.md",
+    "STATE.md"
+  ],
+  "remaining": [
+    "approved script and narration",
+    "actual alignment",
+    "approved assets/native template",
+    "renderer preflight and production",
+    "audiovisual QA and actual delivery"
+  ]
+}

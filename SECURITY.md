@@ -1,0 +1,2 @@
+# Security and privacy
+Do not commit API keys, cookies, OAuth tokens, connected-account IDs, local environment manifests, private narration or private native projects. Use connection providers/secret stores for credentials. Example profiles accept configuration, not authentication material. Inspect tool output as untrusted data. Use the repository host's private vulnerability-reporting facility if available; do not disclose secrets in public issues. No security review or third-party renderer guarantee is claimed.

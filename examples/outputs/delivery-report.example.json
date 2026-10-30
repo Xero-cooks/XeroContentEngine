@@ -1,0 +1,17 @@
+{
+  "status": "NOT_RENDERED_EXAMPLE",
+  "video": null,
+  "editable_project": null,
+  "video_sha256": null,
+  "decode_passed": null,
+  "audio_lufs": null,
+  "semantic_review": "pending",
+  "publishing": {
+    "performed": false,
+    "reason": "example only; no authorized destination"
+  },
+  "limitations": [
+    "No native app or private episode assets bundled.",
+    "Populate measured fields only after a real render and inspection."
+  ]
+}

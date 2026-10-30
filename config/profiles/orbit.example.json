@@ -1,0 +1,90 @@
+{
+  "profile_version": 1,
+  "brand": {
+    "name": "Vinayak Orbit Edition \u2014 example preset",
+    "language": "Hinglish",
+    "tone": [
+      "curious",
+      "playful",
+      "technically clear"
+    ],
+    "accent": "#20D6C7",
+    "text_dark": "#102438",
+    "text_light": "#FFFFFF"
+  },
+  "character": {
+    "name": "Vinayak Voxel \u2014 Orbit Edition (example)",
+    "enabled": true,
+    "identity": "Layered 2D/2.5D floating graphite robot, asymmetric antennae, teal visor, V-core and articulated hovering hands. Preserve a supplied approved rig; this repository does not include that rig.",
+    "pose_names": [
+      "HYPE",
+      "POINT",
+      "SHRUG",
+      "PHONE",
+      "REFUSAL",
+      "LASER",
+      "TYPE",
+      "VICTORY"
+    ]
+  },
+  "typography": {
+    "family": "Geist",
+    "primary_weight": 600,
+    "secondary_weight": 500,
+    "font_file": null,
+    "forbidden_visible_tokens": [
+      "//"
+    ]
+  },
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "duration_policy": "derive_from_approved_audio",
+    "safe_area": "verify against the selected platform overlays"
+  },
+  "backgrounds": {
+    "mode": "user_supplied",
+    "directory": null,
+    "require_approved_source": true,
+    "dark_example_names": [
+      "curvypremium.jpg",
+      "glassmorphic.jpg"
+    ],
+    "light_example_names": [
+      "water-white-premium.jpg"
+    ],
+    "motion": "restrained independent drift; keep reading panels stable"
+  },
+  "audio": {
+    "sample_rate": 48000,
+    "target_lufs": -14,
+    "true_peak_ceiling_dbtp": -1,
+    "sfx": "sparse original UI ticks",
+    "paid_generation_default": false
+  },
+  "tools": {
+    "renderer": "effectcraft",
+    "renderer_executable": null,
+    "template_project": null,
+    "ffmpeg_executable": "ffmpeg",
+    "ffprobe_executable": "ffprobe",
+    "connection_provider": "composio",
+    "desktop_adapter": "optional_user_configured",
+    "connected_account_selectors": {}
+  },
+  "publishing": {
+    "enabled": false,
+    "platforms": [
+      "instagram_reels",
+      "youtube_shorts"
+    ],
+    "require_explicit_approval": true,
+    "account_ids": {},
+    "default_visibility": "private"
+  },
+  "workspace": {
+    "output_root": "episodes",
+    "preserve_sources": true
+  }
+}

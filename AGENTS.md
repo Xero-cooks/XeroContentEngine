@@ -1,0 +1,2 @@
+# Agent entrypoint
+Read SKILL.md, the active local profile and the actual episode STATE.md. Treat example values as examples. Preserve immutable narration/canonical templates. Discover live capabilities/accounts; do not invent them. No paid generation or publishing without authorization. Never claim included utilities render or align arbitrary video/audio. Keep secret/private assets out of public commits.

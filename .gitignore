@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.env
+.env.*
+config/profile.local.json
+config/*.local.json
+episodes/
+work/
+private/
+*.mp3
+*.wav
+*.mp4
+*.ecproj

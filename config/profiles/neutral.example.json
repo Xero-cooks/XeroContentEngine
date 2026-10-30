@@ -1,0 +1,70 @@
+{
+  "profile_version": 1,
+  "brand": {
+    "name": "Your Studio",
+    "language": "English",
+    "tone": [
+      "clear",
+      "friendly"
+    ],
+    "accent": "#20D6C7",
+    "text_dark": "#102438",
+    "text_light": "#FFFFFF"
+  },
+  "character": {
+    "name": "Your approved character",
+    "enabled": false,
+    "identity": "Use your approved mascot, or leave character disabled.",
+    "pose_names": []
+  },
+  "typography": {
+    "family": "Your licensed font",
+    "primary_weight": 600,
+    "secondary_weight": 500,
+    "font_file": null,
+    "forbidden_visible_tokens": []
+  },
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "duration_policy": "derive_from_approved_audio",
+    "safe_area": "verify against the selected platform overlays"
+  },
+  "backgrounds": {
+    "mode": "user_supplied",
+    "directory": null,
+    "require_approved_source": true,
+    "dark_example_names": [],
+    "light_example_names": [],
+    "motion": "restrained independent drift; keep reading panels stable"
+  },
+  "audio": {
+    "sample_rate": 48000,
+    "target_lufs": -14,
+    "true_peak_ceiling_dbtp": -1,
+    "sfx": "sparse original UI ticks",
+    "paid_generation_default": false
+  },
+  "tools": {
+    "renderer": "user_configured",
+    "renderer_executable": null,
+    "template_project": null,
+    "ffmpeg_executable": "ffmpeg",
+    "ffprobe_executable": "ffprobe",
+    "connection_provider": "none",
+    "desktop_adapter": "optional_user_configured",
+    "connected_account_selectors": {}
+  },
+  "publishing": {
+    "enabled": false,
+    "platforms": [],
+    "require_explicit_approval": true,
+    "account_ids": {},
+    "default_visibility": "private"
+  },
+  "workspace": {
+    "output_root": "episodes",
+    "preserve_sources": true
+  }
+}
